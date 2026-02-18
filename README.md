@@ -8,7 +8,7 @@ one has to acknowledge its lack of providing easy access to custom music and sou
 
 The internal functionality of the music was discovered by [LuciaDX](https://github.com/LuciaDX), 
 I merely implemented it based on her findings.
-The plugin offers Soundtracks, in terms of adding looping or non-looping music to players.
+The plugin offers soundtracks, in terms of adding looping or non-looping music to players.
 It also offers Ambient Zones.
 
 ### Ambient Zones
@@ -27,7 +27,7 @@ They will play at a random frequency (4 - 16 Seconds).
 Minecraft Bedrock's Music is used to play the permanent ambient sounds in form of looping music.
 This is necessary since you **cannot** efficiently loop sounds with network latency.
 
-For the so said Soundtracks, normal UI-Sounds are used; actually this is where your own
+For the so said soundtracks, normal UI-Sounds are used; actually this is where your own
 resource-pack work is required.
 Read the [Bedrock Docs](https://wiki.bedrock.dev/concepts/sounds) for more information about Sounds, specifically UI sounds.
 
@@ -81,7 +81,7 @@ For music such as soundtracks please use the Soundtrack system; it's literally i
 
 > **Music Types**:
 There are two music types available to use, either ``MUSIC_REPEAT_ONCE`` or ``MUSIC_REPEAT_LOOP`` which do
-exactly as they say.
+exactly what they indicate.
 
 #### Queueing music
 Use the static ``queueMusic()`` function, specify player, music name, volume, fade (seconds) and type.
