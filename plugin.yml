@@ -1,0 +1,12 @@
+---
+name: SoundController
+version: 1.0.0
+main: floriiian\SoundController\SoundController
+api: 5.14.1
+load: POSTWORLD
+src-namespace-prefix: floriiian\SoundController
+description: An easy-to-use Sound API for PocketMine-MP, featuring a dynamic music and ambient system.
+author: flooriiian
+website: https://github.com/flovrian
+permissions:
+...
