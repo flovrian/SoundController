@@ -1,6 +1,8 @@
 # SoundController
 A PocketMine-MP plugin that adds an easy-to-use Sound API alongside functional ambience.
 
+[![Showcase](https://www.youtube.com/watch?v=Sh31MUrw3yY)
+
 ## Concept
 The entire functionality lies in its ability of providing an easier-to-use Sound API layer.
 While I'm not denying that PocketMine-MP's API is very simple and well-made,
