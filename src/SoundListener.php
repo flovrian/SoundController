@@ -30,6 +30,7 @@ class SoundListener implements Listener{
         if($player::getNetworkTypeId() !== Player::getNetworkTypeId()){
             return;
         }
+        /**@var Player $player*/
         if( $e->getTo()->getWorld()->getFolderName() !== $soundControl::$ambientWorld) {
             $soundControl->getCurrentPlayerZone($player)?->removePlayerFromZone($player);
         }

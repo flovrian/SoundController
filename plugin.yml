@@ -8,5 +8,4 @@ src-namespace-prefix: floriiian\SoundController
 description: An easy-to-use Sound API for PocketMine-MP, featuring a dynamic music and ambient system.
 author: flooriiian
 website: https://github.com/flovrian
-permissions:
 ...
